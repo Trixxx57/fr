@@ -1,0 +1,24 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "learning how to use sass and bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp css",
+    "start": "gulp start"
+  },
+  "author": "Trixxx57",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "browser-sync": "^2.26.7",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}
